@@ -1,4 +1,70 @@
 <?xml version="1.0" ?>
 <robot name="Arm_assembly" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
+<transmission name="Umdrehung 21_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Umdrehung 21">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Umdrehung 21_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Umdrehung 24_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Umdrehung 24">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Umdrehung 24_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Umdrehung 27_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Umdrehung 27">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Umdrehung 27_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Umdrehung 30_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Umdrehung 30">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Umdrehung 30_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Schieberegler 34_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Schieberegler 34">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Schieberegler 34_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Schieberegler 35_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Schieberegler 35">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Schieberegler 35_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
 </robot>
