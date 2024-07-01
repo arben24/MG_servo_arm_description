@@ -11,8 +11,8 @@
 IPAddress agent_ip(192, 168, 178, 54);
 size_t agent_port = 8888;
 
-char ssid[] = "FRITZ!Box 4040 IV 2,4";
-char psk[]= "92192226664667469980";
+char ssid[] = "SSID";
+char psk[]= "WIFI_Password";
 
 /*
 micro-ROS-agent_ws sourcen
